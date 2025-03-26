@@ -20,8 +20,8 @@ A simple **URL Shortener** built with Django that allows users to shorten long U
 ## **Installation and Setup**
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/url-shortener-django.git
-cd url-shortener-django
+git clone https://github.com/trixsearch/linkbanale.git
+cd linkbanale
 ```
 
 ### **2. Create a Virtual Environment**
@@ -39,6 +39,7 @@ pip install -r requirements.txt
 
 ### **4. Apply Migrations**
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
@@ -96,17 +97,15 @@ Now, open your browser and visit **`http://127.0.0.1:8000/`**.
 - Add user authentication for tracking URLs  
 - Implement an API for generating short URLs  
 - Integrate analytics for tracking URL clicks  
-- Deploy on cloud platforms like AWS or Heroku  
+- Deploy on cloud platforms like Python Anywhere
 
 ---
 
-## **License**
-This project is open-source and available under the **MIT License**.
 
 ---
 
 ## **Author**
-👤 **Your Name**  
+👤 **trixsearch**  
 📧 Email: inforatme@gmail.com 
 🔗 GitHub: [trixsearch](https://github.com/trixsearch)  
 

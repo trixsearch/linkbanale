@@ -6,13 +6,13 @@ A simple **URL Shortener** built with Django that allows users to shorten long U
 - Generate short URLs from long URLs  
 - Store generated URLs in a database  
 - Redirect users from short URLs to original long URLs  
-- Django-based backend with form handling  
+- Django-based backend with form handling, using Forms.py
 
 ---
 
 ## **Tech Stack**
 - **Backend:** Django, Python  
-- **Database:** SQLite (default) / MySQL / PostgreSQL (configurable)  
+- **Database:** SQLite (default) / MySQL / PostgreSQL (configurable later)  
 - **Frontend:** HTML (only for the First basic Utility , will be changed soon)
 
 ---
@@ -87,7 +87,7 @@ Now, open your browser and visit **`http://127.0.0.1:8000/`**.
 | Method | URL Pattern          | Description |
 |--------|----------------------|-------------|
 | GET    | `/`                  | Home page (Shorten URL form) |
-| POST   | `/`                  | Submit URL for shortening |
+| POST   | `/`                  | Submit URL for shortening hitting Enter if in Browser |
 | GET    | `/<shortUrl>/`        | Redirect to original URL |
 | GET    | `/detail/<id>/`       | View details of a short URL |
 
@@ -100,6 +100,10 @@ Now, open your browser and visit **`http://127.0.0.1:8000/`**.
 - Deploy on cloud platforms like Python Anywhere
 
 ---
+
+## **Story Behind this Project**
+
+I Basically developed the project to make basic Understanding , later I'm going to use the project in my upcoming projects, that's gonna be trixsearch
 
 
 ---

@@ -103,7 +103,7 @@ Now, open your browser and visit **`http://127.0.0.1:8000/`**.
 
 ## **Story Behind this Project**
 
-I Basically developed the project to make basic Understanding , later I'm going to use the project in my upcoming projects, that's gonna be trixsearch
+I Basically developed the project to make basic Understanding , later I'm going to use the project in my upcoming projects & that's gonna be trixsearch 
 
 
 ---
